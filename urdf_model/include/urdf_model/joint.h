@@ -172,7 +172,7 @@ public:
   std::string name;
   enum
   {
-    UNKNOWN, REVOLUTE, CONTINUOUS, PRISMATIC, FLOATING, PLANAR, FIXED
+    UNKNOWN, REVOLUTE, CONTINUOUS, PRISMATIC, FLOATING, PLANAR, FIXED, SPHERICAL, TRANSLATIONAL
   } type;
 
   /// \brief     type_       meaning of axis_
